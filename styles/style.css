@@ -1,18 +1,19 @@
-.banner {
-  width: 1250px;
-  height: 250px;
-  border-radius: 0%;
-  position: fixed;
+div.header{
+    width: 1250px;
+    height: 250px;
+    position: relative;
 }
+
 #main {
     position: relative;
+
 }
 
 .headline {
     position: absolute;
     left: 400px;
     width: 600px;
-    top: 300px;
+    top: 20px;
     font-family: sans-serif;
     font-size: 38px;
     font-weight: bold;
@@ -22,31 +23,32 @@
     position: absolute;
     left: 400px;
     width: 450px;
-    top: 480px;
+    top: 250px;
     font-family: sans-serif;
     font-style: oblique;
 }
 .classroom {
     position: absolute;
     left: 400px;
-    top: 550px;
+    top: 330px;
     width: 450px;
     height: 250px;
     border-radius: 0%;
 }
-img {
-    border-radius: 50%;
-    border: 5px solid white;
-    width: 100px;
-    position: absolute;
-}
+
 .nav {
     position: relative;
     left: 200px;
     width: 150px;
-    top: 345px;
+    top: 70px;
     font-family: sans-serif;
     color: #606264;
     font-weight: bold;
 }
-
+img {
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+}
