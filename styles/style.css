@@ -41,7 +41,7 @@ div.header{
     width: 100px;
     position: absolute;
     left: 200px;
-    top: 250px;
+    top: 210px;
 }
 .searchbox {
     position: relative;
@@ -52,6 +52,16 @@ div.header{
 
 a {
   font-style: oblique;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border: solid 1px gray;
+    font-family: sans-serif;
+    display: inline;
 }
 
 
